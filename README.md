@@ -4,7 +4,7 @@
 - 学习使用github作为你的项目托管平台
 
 ### 需求描述
-- 创建一个project包含两个分支分别是master和answer分支
+- 创建一个project包含两个分支分别是master和test分支
 - master分支包含master.txt文件（内容不做限制）
 - test分支包含test.txt文件（内容不做限制）
 - 每条分支至少包含两次commit
