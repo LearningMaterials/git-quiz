@@ -3,6 +3,11 @@
 - 学习使用基本git指令对你的项目进行版本控制
 - 学习使用github作为你的项目托管平台
 
+### 环境要求
+- Windows系统
+  - 安装git bash: https://github.com/recruiting-system/2018-03-09-04-55-06-1520571306/blob/master/README.md
+
+
 ### 练习描述
 - 创建一个project包含两个分支分别是master和test分支
 - master分支包含master.txt文件（内容不做限制）
