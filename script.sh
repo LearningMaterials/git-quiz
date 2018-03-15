@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
-git clone ${user_answer_repo} homework
-cd ./homework
+export PATH=$PATH:/usr/bin/git
+git fetch origin
 
 master_branch=$(git branch | grep master)
 test_branch=$(git branch | grep test)
