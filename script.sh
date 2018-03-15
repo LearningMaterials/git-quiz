@@ -1,4 +1,8 @@
 #!/bin/bash -e
+
+git clone ${user_answer_repo} homework
+cd ./homework
+
 master_branch=$(git branch | grep master)
 test_branch=$(git branch | grep test)
 
