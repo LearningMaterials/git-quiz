@@ -1,5 +1,3 @@
-#!/bin/sh -e
-
 export PATH=$PATH:/usr/bin/git
 git fetch origin
 
