@@ -1,8 +1,8 @@
 export PATH=$PATH:/usr/bin/git
 git fetch origin
 
-master_branch=$(git branch | grep master)
-test_branch=$(git branch | grep test)
+master_branch=$(git branch -a | grep master)
+test_branch=$(git branch -a | grep test)
 
 if [[ ! -n $master_branch  &&  ! -n $master_branch ]]; then
     echo "分支不存在!";
