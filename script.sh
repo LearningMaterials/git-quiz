@@ -4,8 +4,13 @@ git fetch origin
 master_branch=$(git branch -a | grep master)
 test_branch=$(git branch -a | grep test)
 
-if [[ ! -n $master_branch  &&  ! -n $test_branch ]]; then
-    echo "分支不存在!";
+if [[ ! -n $master_branch ]]; then
+    echo "master分支不存在!";
+    exit 1;
+fi
+
+if [[ ! -n $test_branch ]]; then
+    echo "test分支不存在!";
     exit 1;
 fi
 
