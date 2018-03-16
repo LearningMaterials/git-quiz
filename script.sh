@@ -4,7 +4,7 @@ git fetch origin
 master_branch=$(git branch -a | grep master)
 test_branch=$(git branch -a | grep test)
 
-if [[ ! -n $master_branch  &&  ! -n $master_branch ]]; then
+if [[ ! -n $master_branch  &&  ! -n $test_branch ]]; then
     echo "分支不存在!";
     exit 1;
 fi
