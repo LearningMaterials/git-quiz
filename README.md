@@ -5,7 +5,7 @@
 
 ### 环境要求
 - Windows系统
-  - 安装git bash: https://github.com/recruiting-system/2018-03-09-04-55-06-1520571306/blob/master/README.md
+  - 安装git bash: https://gitforwindows.org/
 
 
 ### 练习描述
