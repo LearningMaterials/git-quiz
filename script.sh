@@ -1,3 +1,4 @@
+#!/bin/bash
 export PATH=$PATH:/usr/bin/git
 git fetch origin
 
